@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tyron Rosal - Backend Developer & Hardware Enthusiast Portfolio">
+    <meta name="theme-color" content="#000000">
+    
+    <title>Jrm Mcrg | Portfolio</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="logo">Portfolio
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Jerome</span></h1>
+               
+                <p class="hero-description">3rd-year IT Student at QCU | Currently focused on getting better at programming and understanding how systems are built. Still learning, but always striving to know more.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="towbs.jpg" alt="Jerome Macaraeg Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+     
+            <span></span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know who I am</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Developer & Tech Enthusiast</h3>
+                    <p>I'm a 3rd-year college student at <strong>Quezon City University</strong>, I am very interested in computer hardware and fixing computer problems. My journey includes both studying and hands on experience solving technical issues.</p>
+                    <p>I enjoy learning how computer systems work at every level, from hardware parts to software systems. My goal is to use my technical knowledge to build strong and efficient solutions for real world problems.</p>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎓</span>
+                        <div>
+                            <h4>Education</h4>
+                            <p>QCU - 3rd Year - BSIT</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">💼</span>
+                        <div>
+                            <h4>Focus</h4>
+                            <p>Documents/Technical Writer</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">⚙️</span>
+                        <div>
+                            <h4>Interest</h4>
+                            <p>Hardware & Optimization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="category-icon">🔤</span>
+                        Languages
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="category-icon">🗄️</span>
+                        Databases
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Frameworks -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="category-icon">🛠️</span>
+                        Tools & Design
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Photoshop</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Inventory Management System -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="MedicAi.png" alt="Patient Management System" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn" aria-label="View project details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Patient Management System</h3>
+                        <p class="project-description">MedicAI is a web-based patient management system that gives clinics and hospitals AI-aided diagnostic reports to enhance faster and more convenient healthcare services.</p>
+
+                    </div>
+                </article>
+                
+            
+                
+                <!-- Project :attention span System -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="images/heed.png" alt="Attention Span System" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn" aria-label="View project details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HEED: Attention Span Game System</h3>
+                        <p class="project-description">A collection of psychological games designed to improve attention span and reduce excessive screen time through engaging mental exercises</p>
+                        
+                    </div>
+                </article>
+                
+              
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and create something amazing</p>
+        </div>
+
+        <div class="contact-content">
+
+            <!-- LEFT SIDE: Contact Information -->
+            <div class="contact-info">
+                <h4 class="contact-title">Contact Information</h4>
+
+                <div class="contact-line">
+                    <p class="fas fa-envelope"></p>
+                    <p href="mailto:macaraeg.jerome.pajanustan@gmail.com">
+                       Email: macaraeg.jerome.pajanustan@gmail.com
+                    </p>
+                </div>
+
+                <div class="contact-line">
+                    <p class="fab fa-facebook"></p>
+                    <p href="https://www.facebook.com/jeromepogiiiiiii" target="_blank">
+                        Facebook: Jerome Macaraeg
+                    </p>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE: Contact Form -->
+            <form class="contact-form" id="contactForm" aria-label="Contact form">
+
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        id="name" 
+                        class="form-input" 
+                        placeholder="Your Name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <input 
+                        type="email" 
+                        id="email" 
+                        class="form-input" 
+                        placeholder="Your Email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <textarea 
+                        id="message" 
+                        class="form-input form-textarea" 
+                        placeholder="Your Message"
+                        rows="5"
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+
+                <p class="form-message" id="formMessage"></p>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Jerome Macaraeg
+                    . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+</body>
+
+</html>
