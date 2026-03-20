@@ -931,18 +931,20 @@ h4 { font-size: var(--font-size-2xl); }
     font-size: var(--font-size-xl);
 }
 
-.contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-2xl);
-    max-width: 1000px;
-    margin: var(--spacing-3xl) auto 0;
-    align-items: start;
+/* This centers the entire block */
+.contact-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
 
+/* This centers the icon and the text inside the line */
 .contact-line {
     display: flex;
     align-items: center;
+    justify-content: center; 
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-xl);
     font-size: var(--font-size-base);
@@ -998,7 +1000,7 @@ h4 { font-size: var(--font-size-2xl); }
 }
 
 .form-textarea {
-    resize: vertical;
+    resize: none; 
     min-height: 120px;
     font-family: var(--font-family-primary);
 }
